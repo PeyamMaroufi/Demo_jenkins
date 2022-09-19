@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "sw-wow-thermal_sango-s1jgc"}
+    agent {label "sw-wow-thermal_sango-4zh5q"}
     options {
         buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5' )
         disableConcurrentBuilds()
