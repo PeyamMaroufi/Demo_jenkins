@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "master"}
+    agent {label "thermal_sango"}
     options {
         buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5' )
         disableConcurrentBuilds()
